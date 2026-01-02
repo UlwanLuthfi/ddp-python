@@ -1,0 +1,12 @@
+<div class="nav" align="center">
+  <a href="{% url 'home' %}">Home</a>
+  <a href="{% url 'about' %}">About Us</a>
+  <a href="{% url 'gallery' %}">Gallery</a>
+</div>
+<p>
+  {% load static %}
+  <marquee>
+    <img src="{% static 'images/logo.png' %}" width="20%" />
+    <img src="{% static 'images/buah.jpg' %}" width="20%" />
+  </marquee>
+</p>
